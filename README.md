@@ -1,1 +1,0 @@
-# Praktikum-PW2025
