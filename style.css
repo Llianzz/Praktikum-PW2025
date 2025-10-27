@@ -1,0 +1,63 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar .nav-link {
+  color: #333 !important;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: #0d6efd !important;
+}
+
+.hero-section {
+  background: linear-gradient(180deg, #ffffff, #f8f9fa);
+  min-height: 100vh;
+  padding-top: 120px;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+}
+
+/* 🔹 Foto profil bulat sempurna tanpa border */
+.hero-img img {
+  border: none;                 /* hilangkan border biru */
+  border-radius: 50%;           /* buat lingkaran sempurna */
+  object-fit: cover;            /* pastikan proporsional */
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* biar tetap elegan */
+  transition: transform 0.3s ease;
+}
+
+.hero-img img:hover {
+  transform: scale(1.05);
+}
+
+.info-box {
+  transition: all 0.3s ease;
+}
+
+.info-box:hover {
+  background: #0d6efd;
+  color: white;
+  transform: translateY(-10px);
+}
+
+.card {
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: white;
+}
